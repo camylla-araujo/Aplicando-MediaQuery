@@ -1,0 +1,43 @@
+.navbar{
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar .logo{
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu a, .navbar .logo{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu a:hover{
+    color: #999999;
+    text-decoration: underline;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .menu{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+    
+}

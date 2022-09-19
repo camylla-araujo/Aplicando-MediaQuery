@@ -1,0 +1,66 @@
+.noticia{
+    height: 200px;
+    width: 30%;
+    margin-top: 50px;
+}
+
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: right;
+    }
+    
+    .principal{
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+        
+    }
+    .noticia{
+        width: 49%;
+    
+    }
+}
+    
+
+
+@media screen and (max-width: 400px) {
+    h1 {
+      text-align: center;
+    }
+  
+
+  .principal{
+    display: block;
+
+  }
+
+  .noticia{
+    width: 100%;
+  }
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.principal{
+    display: flex;
+    
+}
+
+
